@@ -1,0 +1,66 @@
+.app {
+  min-height: 100vh;
+  padding: 20px;
+  transition: background 0.5s ease;
+  color: #222;
+}
+
+.app.clear {
+  background: linear-gradient(to bottom, #87cefa, #f0f8ff);
+}
+.app.cloudy {
+  background: linear-gradient(to bottom, #d3d3d3, #a9a9a9);
+}
+.app.rain {
+  background: linear-gradient(to bottom, #4a90e2, #142850);
+}
+.app.snow {
+  background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+}
+.app.thunder {
+  background: linear-gradient(to bottom, #3a3a52, #1f1c2c);
+}
+
+.dark {
+  background-color: #121212 !important;
+  color: white !important;
+}
+
+.weather-container {
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+}
+
+.controls input {
+  padding: 8px;
+  margin-right: 8px;
+}
+
+.controls button {
+  margin: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.current-weather img {
+  width: 80px;
+}
+
+.forecast {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.forecast-day {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.error {
+  color: red;
+}
